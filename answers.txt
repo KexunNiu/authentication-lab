@@ -1,0 +1,18 @@
+Q1. {
+    "url": "http://localhost:8000/api/snippets/1/",
+    "id": 1,
+    "highlight": "http://localhost:8000/1/",
+    "title": "random snippet",
+    "code": "print(\"random\")",
+    "linenos": false,
+    "language":"abap",
+    "owner": "random"
+} is defined as a list of classes, and displayed as json type. Managed throughout the REST API, POST and GET methods.
+
+Q2. The HTTPie allows using basic authentication by supplying username and password with -a username:password format.
+
+Q3. The difference is session-based auth is it stores authentication details, in token based auth, it creates JWT with a secret key.
+
+Q4. User click the login button -> Authorization Request -> then User authorizes application -> auth server authorization code grant -> access token request -> access token grant
+
+Q5. https://github.com/KexunNiu/authentication-lab
